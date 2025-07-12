@@ -1,0 +1,5 @@
+
+name = "buysite-mocks"
+main = "src/index.js"
+type = "javascript"
+compatibility_date = "2025-07-12"
