@@ -107,9 +107,45 @@ The worker will be deployed to your Cloudflare account and available at your wor
 ```
 buysite-mocks/
 ├── src/
-│   └── index.js          # Main worker code
-├── wrangler.toml         # Wrangler configuration
-└── README.md            # This file
+│   ├── index.js              # Main worker entry point
+│   ├── handlers/
+│   │   ├── index.js          # Handler exports
+│   │   ├── loginHandler.js   # POST /api/login handler
+│   │   ├── defaultHandler.js # GET / handler (README)
+│   │   └── template.js       # Handler template
+│   └── utils/
+│       └── router.js         # Simple router utility
+├── wrangler.toml             # Wrangler configuration
+└── README.md                # This file
+```
+
+## Project Architecture
+
+The project uses a modular structure with separate handlers for each endpoint:
+
+- **Router**: Simple routing utility in `src/utils/router.js`
+- **Handlers**: Individual endpoint handlers in `src/handlers/`
+- **Main Entry**: Routes registration in `src/index.js`
+
+### Adding New Endpoints
+
+1. Create a new handler file in `src/handlers/` (use `template.js` as reference)
+2. Export the handler function
+3. Add the export to `src/handlers/index.js`
+4. Register the route in `src/index.js`
+
+Example:
+```javascript
+// src/handlers/newEndpoint.js
+export async function handleNewEndpoint(request) {
+  // Your handler logic
+}
+
+// src/handlers/index.js
+export { handleNewEndpoint } from './newEndpoint.js';
+
+// src/index.js
+router.register('GET', '/api/new-endpoint', handleNewEndpoint);
 ```
 
 ## Configuration
