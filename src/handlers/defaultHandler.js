@@ -39,6 +39,37 @@ Authenticates a user and returns a JWT token.
 }
 \`\`\`
 
+### GET /api/{username}/shops
+Returns shops data for a specific username.
+
+**Path Parameters:**
+- \`username\` - The username to get shops for
+
+**Response (CUS9999 - 200):**
+\`\`\`json
+{
+  "shops": [
+    {
+      "name": "TED'S AUTO BODY",
+      "address": "100-354002 128TH STREET WEST, BLACK DIAMOND, AB, T0L 0H0",
+      "shipto": "62862"
+    },
+    {
+      "name": "CAN-AM AUTO GLASS",
+      "address": "5315 4 ST SE, CALGARY, AB, T2H 1K6",
+      "shipto": "49124"
+    }
+  ]
+}
+\`\`\`
+
+**Response (Other usernames - 200):**
+\`\`\`json
+{
+  "shops": []
+}
+\`\`\`
+
 ### Test Credentials
 - **Username**: \`cus9999\`
 - **Password**: \`test5PGW\`

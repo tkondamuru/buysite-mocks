@@ -4,4 +4,5 @@
  */
 
 export { handleLogin } from './loginHandler.js';
-export { handleDefault } from './defaultHandler.js'; 
+export { handleDefault } from './defaultHandler.js';
+export { handleShops } from './shopsHandler.js'; 
