@@ -1,5 +1,5 @@
 export async function handleSecurityProfile(request, params) {
-  const { username } = params;
+  const username = request.params?.username;
   
   const profile = {
     email: "tkondamuru@pgwautoglass.com",
