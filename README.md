@@ -73,6 +73,110 @@ Returns shops data for a specific username.
 }
 ```
 
+### GET /api/security/all_questions
+
+Returns a list of all available security questions with incremental IDs.
+
+**Response (200):**
+```json
+[
+  { "id": 1, "question": "In what city were you born?" },
+  { "id": 2, "question": "What high school did you attend?" },
+  { "id": 3, "question": "What is the name of your first school?" },
+  { "id": 4, "question": "Which phone number do you remember?" },
+  { "id": 5, "question": "What is your favorite movie?" },
+  { "id": 6, "question": "Who is your favorite actor, musician, or artist?" },
+  { "id": 7, "question": "What is your favorite color?" },
+  { "id": 8, "question": "What is your favorite place to visit?" },
+  { "id": 9, "question": "What is your father's middle name?" },
+  { "id": 10, "question": "What street did you grow up on?" },
+  { "id": 11, "question": "What was the make of your first car?" },
+  { "id": 12, "question": "What is the name of your first grade teacher?" },
+  { "id": 13, "question": "What was your high school mascot?" },
+  { "id": 14, "question": "What is the name of your favorite pet?" }
+]
+```
+
+### GET /api/security/{username}/profile
+
+Returns user security profile with email and security questions.
+
+**Path Parameters:**
+- `username` - The username to get profile for
+
+**Response (200):**
+```json
+{
+  "email": "tkondamuru@pgwautoglass.com",
+  "questions": [
+    { "id": 1, "question": "In what city were you born?", "answer": "TEST" },
+    { "id": 2, "question": "What high school did you attend?", "answer": "TEST" },
+    { "id": 3, "question": "What is the name of your first school?", "answer": "TEST" },
+    { "id": 4, "question": "Which phone number do you remember?", "answer": "TEST" },
+    { "id": 5, "question": "What is your favorite movie?", "answer": "TEST" }
+  ]
+}
+```
+
+### PUT /api/security/{username}/email
+
+Updates user email address.
+
+**Path Parameters:**
+- `username` - The username to update email for
+
+**Request Body:**
+```json
+{
+  "email": "newemail@example.com"
+}
+```
+
+**Response (Success - 200):**
+```json
+{
+  "success": true,
+  "message": "Email updated successfully for user username",
+  "email": "newemail@example.com"
+}
+```
+
+**Response (Error - 400):**
+```json
+{
+  "error": "Email is required"
+}
+```
+
+### PUT /api/security/{username}/password
+
+Updates user password.
+
+**Path Parameters:**
+- `username` - The username to update password for
+
+**Request Body:**
+```json
+{
+  "password": "newpassword123"
+}
+```
+
+**Response (Success - 200):**
+```json
+{
+  "success": true,
+  "message": "Password updated successfully for user username"
+}
+```
+
+**Response (Error - 400):**
+```json
+{
+  "error": "Password is required"
+}
+```
+
 ### Test Credentials
 
 - **Username**: `cus9999`
@@ -145,6 +249,10 @@ buysite-mocks/
 │   │   ├── loginHandler.js   # POST /api/login handler
 │   │   ├── defaultHandler.js # GET / handler (README)
 │   │   ├── shopsHandler.js   # GET /api/{username}/shops handler
+│   │   ├── securityQuestionsHandler.js # GET /api/security/all_questions handler
+│   │   ├── securityProfileHandler.js   # GET /api/security/{username}/profile handler
+│   │   ├── updateEmailHandler.js       # PUT /api/security/{username}/email handler
+│   │   ├── updatePasswordHandler.js    # PUT /api/security/{username}/password handler
 │   │   └── template.js       # Handler template
 │   ├── utils/
 │   │   └── router.js         # Simple router utility
