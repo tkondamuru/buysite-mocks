@@ -1,5 +1,5 @@
 import { Router } from './utils/router.js';
-import { handleLogin, handleDefault, handleShops, handleSecurityQuestions, handleSecurityProfile, handleUpdateEmail, handleUpdatePassword } from './handlers/index.js';
+import { handleLogin, handleDefault, handleShops, handleSecurityQuestions, handleSecurityProfile, handleUpdateEmail, handleUpdatePassword, handleUpdateQuestions } from './handlers/index.js';
 
 // Initialize router
 const router = new Router();
@@ -12,6 +12,7 @@ router.register('GET', '/api/security/all_questions', handleSecurityQuestions);
 router.registerDynamic('GET', '/api/security/{username}/profile', handleSecurityProfile);
 router.registerDynamic('PUT', '/api/security/{username}/email', handleUpdateEmail);
 router.registerDynamic('PUT', '/api/security/{username}/password', handleUpdatePassword);
+router.registerDynamic('PUT', '/api/security/{username}/updatequestions', handleUpdateQuestions);
 
 export default {
   async fetch(request, env, ctx) {

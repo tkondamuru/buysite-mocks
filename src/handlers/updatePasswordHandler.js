@@ -1,5 +1,5 @@
 export async function handleUpdatePassword(request, params) {
-  const { username } = params;
+  const username = request.params?.username;
   
   try {
     const body = await request.json();
