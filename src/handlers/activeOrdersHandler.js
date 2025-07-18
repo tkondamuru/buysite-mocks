@@ -16,6 +16,7 @@ export async function handleActiveOrders(request) {
   }
 
   try {
+    // Return all active orders data for mock purposes
     
     const response = {
       success: true,

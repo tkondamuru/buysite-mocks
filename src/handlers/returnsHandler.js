@@ -16,16 +16,13 @@ export async function handleReturns(request) {
   }
 
   try {
-    // Filter returns by shipTono
-    const filteredReturns = returnsData.filter(returnItem => 
-      returnItem.shipToNumber.toString() === shipTono.toString()
-    );
-
+    // Return all returns data for mock purposes
+    
     const response = {
       success: true,
       shipTono: shipTono,
-      count: filteredReturns.length,
-      returns: filteredReturns
+      count: returnsData.length,
+      returns: returnsData
     };
 
     return new Response(JSON.stringify(response), {
