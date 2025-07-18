@@ -1,5 +1,5 @@
 import { Router } from './utils/router.js';
-import { handleLogin, handleDefault, handleShops, handleSecurityQuestions, handleSecurityProfile, handleUpdateEmail, handleUpdatePassword, handleUpdateQuestions } from './handlers/index.js';
+import { handleLogin, handleDefault, handleShops, handleSecurityQuestions, handleSecurityProfile, handleUpdateEmail, handleUpdatePassword, handleUpdateQuestions, handleActiveOrders, handleReturns, handleHistory } from './handlers/index.js';
 
 // Initialize router
 const router = new Router();
@@ -13,6 +13,9 @@ router.registerDynamic('GET', '/api/security/{username}/profile', handleSecurity
 router.registerDynamic('PUT', '/api/security/{username}/email', handleUpdateEmail);
 router.registerDynamic('PUT', '/api/security/{username}/password', handleUpdatePassword);
 router.registerDynamic('PUT', '/api/security/{username}/updatequestions', handleUpdateQuestions);
+router.registerDynamic('GET', '/api/{shipTono}/activeorders', handleActiveOrders);
+router.registerDynamic('GET', '/api/{shipTono}/returns', handleReturns);
+router.registerDynamic('POST', '/api/{shipTono}/history', handleHistory);
 
 export default {
   async fetch(request, env, ctx) {

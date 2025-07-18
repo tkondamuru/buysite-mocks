@@ -10,4 +10,7 @@ export { handleSecurityQuestions } from './securityQuestionsHandler.js';
 export { handleSecurityProfile } from './securityProfileHandler.js';
 export { handleUpdateEmail } from './updateEmailHandler.js';
 export { handleUpdatePassword } from './updatePasswordHandler.js';
-export { handleUpdateQuestions } from './updateQuestionsHandler.js'; 
+export { handleUpdateQuestions } from './updateQuestionsHandler.js';
+export { handleActiveOrders } from './activeOrdersHandler.js';
+export { handleReturns } from './returnsHandler.js';
+export { handleHistory } from './historyHandler.js'; 
