@@ -13,4 +13,5 @@ export { handleUpdatePassword } from './updatePasswordHandler.js';
 export { handleUpdateQuestions } from './updateQuestionsHandler.js';
 export { handleActiveOrders } from './activeOrdersHandler.js';
 export { handleReturns } from './returnsHandler.js';
-export { handleHistory } from './historyHandler.js'; 
+export { handleHistory } from './historyHandler.js';
+export { handleCancelActiveOrder } from './cancelActiveOrderHandler.js'; 
