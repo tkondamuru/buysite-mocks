@@ -14,4 +14,5 @@ export { handleUpdateQuestions } from './updateQuestionsHandler.js';
 export { handleActiveOrders } from './activeOrdersHandler.js';
 export { handleReturns } from './returnsHandler.js';
 export { handleHistory } from './historyHandler.js';
-export { handleCancelActiveOrder } from './cancelActiveOrderHandler.js'; 
+export { handleCancelActiveOrder } from './cancelActiveOrderHandler.js';
+export { handleTopSundries } from './topSundriesHandler.js'; 
