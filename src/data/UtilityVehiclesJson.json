@@ -2,21 +2,21 @@
     "newparts": [
       {
         "arg_part_no": "DW02847 GTY",
-        "OE_Number": null,
+        "OE_Number": "DD-447418",
         "item_uid_no": "476635",
         "Description_text": "22 W/S GMC BRIGHTDROP ZEVO [Windshield    (Solar)(Rain Sensor)(Lane Keep Assist)(LDWS)(Forward Collision Alert w/Brake Assist)]",
         "Block_Size": "2 x 2"
       },
       {
         "arg_part_no": "DW02064 GTN",
-        "OE_Number": null,
+        "OE_Number": "DD-447418",
         "item_uid_no": "447509",
         "Description_text": "13-14 W/S ISUZU UTILIMASTER REACH [Windshield]",
         "Block_Size": "47.6 x 78.5"
       },
       {
         "arg_part_no": "DW01820 GTN",
-        "OE_Number": null,
+        "OE_Number": "DD-447418",
         "item_uid_no": "447418",
         "Description_text": "00-12 W/S R UTILI AEROMASTER / FASTR [Windshield  OUTER RIGHT(Tempered)]",
         "Block_Size": "23.5 x 34"
