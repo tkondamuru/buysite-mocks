@@ -1,5 +1,4 @@
-{
-    "utilityvehicles": [
+[
       {
         "arg_part_no": "DW02847 GTY",
         "OE_Number": "DD-447418",
@@ -71,4 +70,3 @@
         "Block_Size": "28 x 71"
       }
     ]
-  }
