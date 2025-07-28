@@ -1,5 +1,5 @@
 import { Router } from './utils/router.js';
-import { handleLogin, handleDefault, handleShops, handleSecurityQuestions, handleSecurityProfile, handleUpdateEmail, handleUpdatePassword, handleUpdateQuestions, handleActiveOrders, handleReturns, handleHistory, handleCancelActiveOrder, handleTopSundries } from './handlers/index.js';
+import { handleLogin, handleDefault, handleShops, handleSecurityQuestions, handleSecurityProfile, handleUpdateEmail, handleUpdatePassword, handleUpdateQuestions, handleActiveOrders, handleReturns, handleHistory, handleCancelActiveOrder, handleTopSundries, handleNewVehicles } from './handlers/index.js';
 
 // Initialize router
 const router = new Router();
@@ -16,6 +16,7 @@ router.registerDynamic('PUT', '/api/security/{username}/updatequestions', handle
 router.registerDynamic('GET', '/api/{shipTono}/activeorders', handleActiveOrders);
 router.register('POST', '/api/cancel-active-order', handleCancelActiveOrder);
 router.register('GET', '/parts/top-sundries', handleTopSundries);
+router.register('GET', '/parts/new-vehicles', handleNewVehicles);
 router.registerDynamic('GET', '/api/{shipTono}/returns', handleReturns);
 router.registerDynamic('POST', '/api/{shipTono}/history', handleHistory);
 

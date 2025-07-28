@@ -1,0 +1,74 @@
+{
+    "newparts": [
+      {
+        "arg_part_no": "DW02847 GTY",
+        "OE_Number": null,
+        "item_uid_no": "476635",
+        "Description_text": "22 W/S GMC BRIGHTDROP ZEVO [Windshield    (Solar)(Rain Sensor)(Lane Keep Assist)(LDWS)(Forward Collision Alert w/Brake Assist)]",
+        "Block_Size": "2 x 2"
+      },
+      {
+        "arg_part_no": "DW02064 GTN",
+        "OE_Number": null,
+        "item_uid_no": "447509",
+        "Description_text": "13-14 W/S ISUZU UTILIMASTER REACH [Windshield]",
+        "Block_Size": "47.6 x 78.5"
+      },
+      {
+        "arg_part_no": "DW01820 GTN",
+        "OE_Number": null,
+        "item_uid_no": "447418",
+        "Description_text": "00-12 W/S R UTILI AEROMASTER / FASTR [Windshield  OUTER RIGHT(Tempered)]",
+        "Block_Size": "23.5 x 34"
+      },
+      {
+        "arg_part_no": "DW01676 GTN",
+        "OE_Number": null,
+        "item_uid_no": "431194",
+        "Description_text": "00-12 W/S UTILI AEROMASTER/WRKHSE [Windshield   RIGHT Windshield   LEFT(93.5\" Body Width)]",
+        "Block_Size": "36 x 46"
+      },
+      {
+        "arg_part_no": "DW01676 GBN",
+        "OE_Number": null,
+        "item_uid_no": "447367",
+        "Description_text": "00-12 W/S UTILI AEROMASTER/WRKHSE [Windshield   RIGHT Windshield   LEFT(93.5\" Body Width)]",
+        "Block_Size": "36 x 46"
+      },
+      {
+        "arg_part_no": "DW01650 GTN",
+        "OE_Number": null,
+        "item_uid_no": "447363",
+        "Description_text": "00-12 W/S L UTILI AEROMASTER/WRKHSE [Windshield  OUTER LEFT(Tempered)]",
+        "Block_Size": "21 x 34"
+      },
+      {
+        "arg_part_no": "DW01649 GTN",
+        "OE_Number": null,
+        "item_uid_no": "447362",
+        "Description_text": "00-12 W/S R UTILI AEROMASTER/WRKHSE [Windshield  OUTER RIGHT(Tempered)]",
+        "Block_Size": "21 x 34"
+      },
+      {
+        "arg_part_no": "DW01648 GTN",
+        "OE_Number": null,
+        "item_uid_no": "431196",
+        "Description_text": "00-12 W/S UTILI AEROMASTER/WRKHSE [Windshield   RIGHT Windshield   LEFT(86.5\" Body Width)]",
+        "Block_Size": "36 x 42"
+      },
+      {
+        "arg_part_no": "DW01648 GBN",
+        "OE_Number": null,
+        "item_uid_no": "430624",
+        "Description_text": "00-12 W/S UTILI AEROMASTER/WRKHSE [Windshield   RIGHT Windshield   LEFT(86.5\" Body Width)]",
+        "Block_Size": "36 x 42"
+      },
+      {
+        "arg_part_no": "DW01113 GTY",
+        "OE_Number": null,
+        "item_uid_no": "10791",
+        "Description_text": "90-95 W/S OLSON LLV TRK [Windshield]",
+        "Block_Size": "28 x 71"
+      }
+    ]
+  }
