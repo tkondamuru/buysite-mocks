@@ -5,7 +5,7 @@ export async function handleNewVehicles(request) {
     // Process the data to add display_arg_part_no property
     const processedVehicles = newVehiclesData.map(vehicle => {
       const display_arg_part_no = vehicle.OE_Number 
-        ? vehicle.arg_part_no + vehicle.OE_Number 
+        ? vehicle.arg_part_no + ' / ' + vehicle.OE_Number 
         : vehicle.arg_part_no;
       
       return {
