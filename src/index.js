@@ -16,7 +16,7 @@ router.registerDynamic('PUT', '/api/security/{username}/updatequestions', handle
 router.registerDynamic('GET', '/api/{shipTono}/activeorders', handleActiveOrders);
 router.register('POST', '/api/cancel-active-order', handleCancelActiveOrder);
 router.register('GET', '/parts/top-sundries', handleTopSundries);
-router.register('GET', '/parts/new-vehicles', handleNewVehicles);
+router.register('GET', '/parts/utility-vehicles', handleNewVehicles);
 router.registerDynamic('GET', '/api/{shipTono}/returns', handleReturns);
 router.registerDynamic('POST', '/api/{shipTono}/history', handleHistory);
 
