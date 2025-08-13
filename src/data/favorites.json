@@ -1,0 +1,344 @@
+[
+    {
+        "alpha_Part_No": "2442MIRROR",
+        "item_Uid_No": 117308,
+        "part_Category": "Mirrors",
+        "part_Desc": "2442MIRROR BRC 2442MIRROR",
+        "part_Type": "S",
+        "userId": null,
+        "productSearchDto": null
+    },
+    {
+        "alpha_Part_No": "3925",
+        "item_Uid_No": 440386,
+        "part_Category": "Mirrors",
+        "part_Desc": "3925 BRC DODGE RAM LOWER LH CONVEX",
+        "part_Type": "S",
+        "userId": null,
+        "productSearchDto": null
+    },
+    {
+        "alpha_Part_No": "5504G",
+        "item_Uid_No": 443524,
+        "part_Category": "Urethane Systems",
+        "part_Desc": "5504G ESC BETAPRIME ALL-IN-ONE-PRIMER G",
+        "part_Type": "S",
+        "userId": null,
+        "productSearchDto": null
+    },
+    {
+        "alpha_Part_No": "8X8FOAM",
+        "item_Uid_No": 319954,
+        "part_Category": "Tapes",
+        "part_Desc": "8X8FOAM GGC 8X8MM FOAM BUTYL TAPE 16'",
+        "part_Type": "S",
+        "userId": null,
+        "productSearchDto": null
+    },
+    {
+        "alpha_Part_No": "AGRKM18V",
+        "item_Uid_No": 476561,
+        "part_Category": "Power Tools",
+        "part_Desc": "AGRKM18V GCT BEAST CUT OUT TOOL 18V",
+        "part_Type": "S",
+        "userId": null,
+        "productSearchDto": null
+    },
+    {
+        "alpha_Part_No": "AGRKS",
+        "item_Uid_No": 452630,
+        "part_Category": "Hand Tools",
+        "part_Desc": "AGRKS GCT GLASS TECHNOLOGY BLADE SHEATH",
+        "part_Type": "S",
+        "userId": null,
+        "productSearchDto": null
+    },
+    {
+        "alpha_Part_No": "DB13083 GTY",
+        "item_Uid_No": 460923,
+        "part_Category": "Tempered",
+        "part_Desc": " Back Window    (Heated) (1Holes) (Solar)",
+        "part_Type": "A",
+        "userId": null,
+        "productSearchDto": null
+    },
+    {
+        "alpha_Part_No": "DT01099 GTN",
+        "item_Uid_No": 467156,
+        "part_Category": "Tempered",
+        "part_Desc": " Back Window   ",
+        "part_Type": "A",
+        "userId": null,
+        "productSearchDto": null
+    },
+    {
+        "alpha_Part_No": "DW01003 CLN",
+        "item_Uid_No": 1483,
+        "part_Category": "Windshields",
+        "part_Desc": " Windshield   (W/Band)",
+        "part_Type": "A",
+        "userId": null,
+        "productSearchDto": null
+    },
+    {
+        "alpha_Part_No": "DW01003 GBN",
+        "item_Uid_No": 447251,
+        "part_Category": "Windshields",
+        "part_Desc": " Windshield   (W/Band)",
+        "part_Type": "A",
+        "userId": null,
+        "productSearchDto": null
+    },
+    {
+        "alpha_Part_No": "DW01036 GTY",
+        "item_Uid_No": 203839,
+        "part_Category": "Windshields",
+        "part_Desc": " Windshield   RIGHT (Encap)",
+        "part_Type": "A",
+        "userId": null,
+        "productSearchDto": null
+    },
+    {
+        "alpha_Part_No": "DW01041 GBY",
+        "item_Uid_No": 203851,
+        "part_Category": "Windshields",
+        "part_Desc": " Windshield    (Heated)",
+        "part_Type": "A",
+        "userId": null,
+        "productSearchDto": null
+    },
+    {
+        "alpha_Part_No": "DW01096 GBN",
+        "item_Uid_No": 203988,
+        "part_Category": "Windshields",
+        "part_Desc": " Windshield   ",
+        "part_Type": "A",
+        "userId": null,
+        "productSearchDto": null
+    },
+    {
+        "alpha_Part_No": "DW01096 GBNF",
+        "item_Uid_No": 203987,
+        "part_Category": "Windshields",
+        "part_Desc": " Windshield   ",
+        "part_Type": "A",
+        "userId": null,
+        "productSearchDto": null
+    },
+    {
+        "alpha_Part_No": "DW01098 CBY",
+        "item_Uid_No": 5757,
+        "part_Category": "Windshields",
+        "part_Desc": " Windshield    (Heated)",
+        "part_Type": "A",
+        "userId": null,
+        "productSearchDto": null
+    },
+    {
+        "alpha_Part_No": "DW01098 GBN",
+        "item_Uid_No": 12887,
+        "part_Category": "Windshields",
+        "part_Desc": " Windshield    (Heated)",
+        "part_Type": "A",
+        "userId": null,
+        "productSearchDto": null
+    },
+    {
+        "alpha_Part_No": "DW01099 GBN",
+        "item_Uid_No": 203997,
+        "part_Category": "Windshields",
+        "part_Desc": " Windshield   (W/Band)",
+        "part_Type": "A",
+        "userId": null,
+        "productSearchDto": null
+    },
+    {
+        "alpha_Part_No": "DW01217 GBY",
+        "item_Uid_No": 9692,
+        "part_Category": "Windshields",
+        "part_Desc": " Windshield    (Encap) (Solar)(W/Bracket)",
+        "part_Type": "A",
+        "userId": null,
+        "productSearchDto": null
+    },
+    {
+        "alpha_Part_No": "DW02001 GTY",
+        "item_Uid_No": 444174,
+        "part_Category": "Windshields",
+        "part_Desc": " Windshield    (Solar)",
+        "part_Type": "A",
+        "userId": null,
+        "productSearchDto": null
+    },
+    {
+        "alpha_Part_No": "ET204",
+        "item_Uid_No": 462996,
+        "part_Category": "Moldings - Universal",
+        "part_Desc": "ET204 GGC 3/8 LIP-SELF ADH UNDERSIDE 100",
+        "part_Type": "S",
+        "userId": null,
+        "productSearchDto": null
+    },
+    {
+        "alpha_Part_No": "FB01098 GTN",
+        "item_Uid_No": 467934,
+        "part_Category": "Tempered",
+        "part_Desc": " Back Window   ",
+        "part_Type": "A",
+        "userId": null,
+        "productSearchDto": null
+    },
+    {
+        "alpha_Part_No": "FB23336 YPY",
+        "item_Uid_No": 433841,
+        "part_Category": "Tempered",
+        "part_Desc": " Back Window    (Heated) (Solar)(Power Drop Down)",
+        "part_Type": "A",
+        "userId": null,
+        "productSearchDto": null
+    },
+    {
+        "alpha_Part_No": "FB25067 GTN",
+        "item_Uid_No": 468665,
+        "part_Category": "Tempered",
+        "part_Desc": " Back Window    (Ant)(One-Piece)",
+        "part_Type": "A",
+        "userId": null,
+        "productSearchDto": null
+    },
+    {
+        "alpha_Part_No": "FB26665 GTN",
+        "item_Uid_No": 452218,
+        "part_Category": "Tempered",
+        "part_Desc": " Back Window    (Heated) (Solar)",
+        "part_Type": "A",
+        "userId": null,
+        "productSearchDto": null
+    },
+    {
+        "alpha_Part_No": "FB27282 GTN",
+        "item_Uid_No": 461389,
+        "part_Category": "Tempered",
+        "part_Desc": " Back Window    (Ant) (Heated) (Solar)(Acoustic Interlayer)(Laminated)",
+        "part_Type": "A",
+        "userId": null,
+        "productSearchDto": null
+    },
+    {
+        "alpha_Part_No": "FV20001 GTN",
+        "item_Uid_No": 13931,
+        "part_Category": "Tempered",
+        "part_Desc": " Vent FRONT  RIGHT",
+        "part_Type": "A",
+        "userId": null,
+        "productSearchDto": null
+    },
+    {
+        "alpha_Part_No": "FW02000 GTN",
+        "item_Uid_No": 13302,
+        "part_Category": "Windshields",
+        "part_Desc": " Windshield   ",
+        "part_Type": "A",
+        "userId": null,
+        "productSearchDto": null
+    },
+    {
+        "alpha_Part_No": "FW05681 GTY",
+        "item_Uid_No": 475829,
+        "part_Category": "Windshields",
+        "part_Desc": " Windshield    (Solar)(Acoustic Infrared Interlayer)(Collision Mitigation Braking System)(Forward Collision Alert)(Road Departure Mitigation System)(LDWS)(Adaptive Cruise Control)(Lane Keep Assist)(Traffic Jam Assist)(Traffic Sign Recognition)",
+        "part_Type": "A",
+        "userId": null,
+        "productSearchDto": null
+    },
+    {
+        "alpha_Part_No": "GGG1874BTM",
+        "item_Uid_No": 443030,
+        "part_Category": "Moldings - Domestic",
+        "part_Desc": "GGG1874BTM GGC 1 PC - BOTTOM MLDG",
+        "part_Type": "S",
+        "userId": null,
+        "productSearchDto": null
+    },
+    {
+        "alpha_Part_No": "JSC1098",
+        "item_Uid_No": 453164,
+        "part_Category": "Hand Tools",
+        "part_Desc": "JSC1098 ETC JEEP SPACER CLIP - PACK OF 6",
+        "part_Type": "S",
+        "userId": null,
+        "productSearchDto": null
+    },
+    {
+        "alpha_Part_No": "MSP1845",
+        "item_Uid_No": 464323,
+        "part_Category": "Attachments / Hardware",
+        "part_Desc": "MSP1845 MCC RAIN SENSOR PAD",
+        "part_Type": "S",
+        "userId": null,
+        "productSearchDto": null
+    },
+    {
+        "alpha_Part_No": "MWD01319",
+        "item_Uid_No": 443033,
+        "part_Category": "Moldings - Domestic",
+        "part_Desc": "MWD01319 CEP REVEAL 3 SIDED",
+        "part_Type": "S",
+        "userId": null,
+        "productSearchDto": null
+    },
+    {
+        "alpha_Part_No": "PCK-1099-80",
+        "item_Uid_No": 414651,
+        "part_Category": "Attachments / Hardware",
+        "part_Desc": "PCK-1099-80 PCC MOLDING CLIPS 20 PCS FORD PU",
+        "part_Type": "S",
+        "userId": null,
+        "productSearchDto": null
+    },
+    {
+        "alpha_Part_No": "PCK1099-80L",
+        "item_Uid_No": 473872,
+        "part_Category": "Attachments / Hardware",
+        "part_Desc": "PCK1099-80L PCC LWR WS CLIP AND RIVET 27PC",
+        "part_Type": "S",
+        "userId": null,
+        "productSearchDto": null
+    },
+    {
+        "alpha_Part_No": "QC4",
+        "item_Uid_No": 457676,
+        "part_Category": "Attachments / Hardware",
+        "part_Desc": "QC4 MCC RAIN SENSOR GEL SINGLE",
+        "part_Type": "S",
+        "userId": null,
+        "productSearchDto": null
+    },
+    {
+        "alpha_Part_No": "T107B",
+        "item_Uid_No": 437841,
+        "part_Category": "Moldings - Universal",
+        "part_Desc": "T107B GGC 3-4IN BUTYL CHANNEL MLDG",
+        "part_Type": "S",
+        "userId": null,
+        "productSearchDto": null
+    },
+    {
+        "alpha_Part_No": "TC199",
+        "item_Uid_No": 445226,
+        "part_Category": "Power Tools",
+        "part_Desc": "TC199 ETC T-CUP VACUUM CUP PAIR",
+        "part_Type": "S",
+        "userId": null,
+        "productSearchDto": null
+    },
+    {
+        "alpha_Part_No": "USMF3607",
+        "item_Uid_No": 443137,
+        "part_Category": "Moldings - Foreign",
+        "part_Desc": "USMF3607 PCC UNDERSIDE TOP MLD",
+        "part_Type": "S",
+        "userId": null,
+        "productSearchDto": null
+    }
+]

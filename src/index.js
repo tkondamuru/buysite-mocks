@@ -1,5 +1,5 @@
 import { Router } from './utils/router.js';
-import { handleLogin, handleDefault, handleShops, handleSecurityQuestions, handleSecurityProfile, handleUpdateEmail, handleUpdatePassword, handleUpdateQuestions, handleActiveOrders, handleReturns, handleHistory, handleCancelActiveOrder, handleTopSundries, handleNewVehicles } from './handlers/index.js';
+import { handleLogin, handleDefault, handleShops, handleSecurityQuestions, handleSecurityProfile, handleUpdateEmail, handleUpdatePassword, handleUpdateQuestions, handleActiveOrders, handleReturns, handleHistory, handleCancelActiveOrder, handleTopSundries, handleNewVehicles, handleFavorites, handleUpdateFavorites, handleNewParts, handleRecentSundries } from './handlers/index.js';
 
 // Initialize router
 const router = new Router();
@@ -17,6 +17,10 @@ router.registerDynamic('GET', '/api/{shipTono}/activeorders', handleActiveOrders
 router.register('POST', '/api/cancel-active-order', handleCancelActiveOrder);
 router.register('GET', '/parts/top-sundries', handleTopSundries);
 router.register('GET', '/parts/utility-vehicles', handleNewVehicles);
+router.registerDynamic('GET', '/api/{shipTono}/favorites', handleFavorites);
+router.registerDynamic('POST', '/api/{shipTono}', handleUpdateFavorites);
+router.register('GET', '/parts/newparts', handleNewParts);
+router.register('GET', '/parts/recent-sundries', handleRecentSundries);
 router.registerDynamic('GET', '/api/{shipTono}/returns', handleReturns);
 router.registerDynamic('POST', '/api/{shipTono}/history', handleHistory);
 
